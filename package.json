@@ -1,0 +1,36 @@
+{
+  "name": "upmodules",
+  "version": "0.0.1",
+  "description": "Install npm modules and manipulate files of Node.js modules after installation.",
+  "main": "src/index.js",
+  "scripts": {},
+  "bin": {
+    "upmodules": "bin/upmodules.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmelnic/upmodules.git"
+  },
+  "keywords": [
+    "upmodules",
+    "node_modules",
+    "npm",
+    "deploy"
+  ],
+  "author": "Vladimir Melnic <win32hack@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vmelnic/upmodules/issues"
+  },
+  "homepage": "https://github.com/vmelnic/upmodules#readme",
+  "dependencies": {
+    "fs-extra": "5.0.0",
+    "glob": "7.1.2",
+    "lnk": "1.1.0",
+    "minimist": "1.2.0",
+    "resolve-from": "4.0.0",
+    "resolve-pkg": "1.0.0",
+    "util-promisify": "2.1.0"
+  },
+  "devDependencies": {}
+}
