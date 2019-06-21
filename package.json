@@ -1,5 +1,5 @@
 {
-  "name": "upmodules",
+  "name": "@win32hack/upmodules",
   "version": "0.0.1",
   "description": "Install npm modules and manipulate files of Node.js modules after installation.",
   "main": "src/index.js",
@@ -32,5 +32,8 @@
     "resolve-pkg": "1.0.0",
     "util-promisify": "2.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "directories": {
+    "test": "test"
+  }
 }
